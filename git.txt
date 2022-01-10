@@ -1,0 +1,16 @@
+--important git commands-
+
+1)git status
+2)git init -> if directory wasnt a git repo it converts it into one.
+3)git add --a  this adds all files and folders to staging area.
+4)git commit -m "some message"
+5)git log
+6)rm -rf .git    deletes the git repo only...folder becomes normal
+7)git clone URL <name of folder>
+
+8)touch .gitignore  generates a gitignore file in which we can write file names to be ignored.
+9)git diff (compares staging area to working area, working area same as unmodifies files
+            which have to be pushed to the staging area by git add --a)
+
+10)git diff --staged  (compares previous commit to staging area)
+
